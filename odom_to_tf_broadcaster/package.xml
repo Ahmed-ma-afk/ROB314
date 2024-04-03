@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <name>odom_to_tf_broadcaster</name>
+  <version>1.0.0</version>
+  <description>Publish odometry measures into tf topic</description>
+
+  <maintainer email ="example@gmail.com">MT</maintainer>
+  <license>free</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+</package>

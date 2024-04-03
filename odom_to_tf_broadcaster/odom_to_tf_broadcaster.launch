@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+ 
+<launch>
+  <node name="odom_to_tf_broadcaster" pkg="odom_to_tf_broadcaster" type="odom_to_tf_broadcaster.py" output="screen" />
+ 
+   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find odom_to_tf_broadcaster)/odom_rviz.rviz"/>
+</launch>
+
