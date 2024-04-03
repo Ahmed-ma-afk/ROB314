@@ -4,9 +4,9 @@ This project is about drawing a letter using a Tello Edu Drone.
 
 ## Installation
 
-First, you need to install the [Tello-driver-ros](https://github.com/TIERS/tello-driver-ros) in your catkin workspace.
+First, you need to install the [Tello-driver-ros](https://github.com/TIERS/tello-driver-ros) in your catkin workspace (You only need to clone the repository and install the dependencies).
 
-Then, clone this project into your `catkin_ws/src` and build it:
+Then, clone this git project into your `catkin_ws/src` and build it:
 
 ```
 cd ~/catkin_ws
